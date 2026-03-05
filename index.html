@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        :root {
+            --primary-green: #2d5a27;
+            --secondary-green: #4f772d;
+            --earth-brown: #6b4e31;
+            --light-bg: #f9fbf9;
+            --white: #ffffff;
+        }
+
+        body {
+            font-family: 'Times New Roman', Times, serif; /* Estilo académico solicitado */
+            line-height: 1.6;
+            color: #333;
+            background-color: var(--light-bg);
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            background: var(--white);
+            padding: 40px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 3px solid var(--primary-green);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .logo-placeholder {
+            max-width: 250px;
+            margin-bottom: 10px;
+        }
+
+        h1 { color: var(--primary-green); text-transform: uppercase; letter-spacing: 1px; }
+        h2 { color: var(--secondary-green); border-left: 5px solid var(--primary-green); padding-left: 15px; margin-top: 40px; }
+        h3 { color: var(--earth-brown); margin-top: 25px; }
+
+        .highlight-box {
+            background-color: #eef5ee;
+            padding: 20px;
+            border-radius: 5px;
+            border-left: 4px solid var(--primary-green);
+            margin: 20px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 0.9em; /* Tamaño 9 como pide el PDF para tablas */
+        }
+
+        th { background-color: var(--primary-green); color: white; padding: 12px; text-align: left; }
+        td { border: 1px solid #ddd; padding: 10px; }
+        tr:nth-child(even) { background-color: #f2f2f2; }
+
+        .footer {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 0.8em;
+            color: #777;
+            border-top: 1px solid #ddd;
+            padding-top: 20px;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .container { padding: 15px; }
+            table { font-size: 0.8em; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <img src="https://www.covico.es/wp-content/uploads/2022/02/logo-covico.png" alt="Logo COVICO" class="logo-placeholder">
+        <h1>Portafolio: Dirección de Recursos Humanos</h1>
+        <p><strong>Empresa:</strong> S.C. Comarcal del Campo Virgen de la Corona (COVICO)</p>
+    </header>
+
+    <section id="punto3">
+        <h2>3. Gestión de Recursos Humanos</h2>
+        
+        <div class="highlight-box">
+            <h3>3.a. Desafíos y Visión Estratégica</h3>
+            <p><strong>Desafíos:</strong> El principal reto detectado es el relevo generacional en Almudévar y la tecnificación necesaria para la planta de alfalfa.</p>
+            <p><strong>Visión:</strong> Evolución hacia políticas de "Talento Verde" que refuercen el compromiso con el socio y la economía circular.</p>
+        </div>
+
+        <h3>3.1. Análisis del Puesto y Planificación</h3>
+        <ul>
+            <li><strong>3.1.1. Estructura:</strong> Organigrama funcional con secciones especializadas (Cereales, Alfalfa, Crédito, Gasolinera).</li>
+            <li><strong>3.1.3. Estacionalidad:</strong> Planificación de plantillas basada en campañas de cosecha (verano) con refuerzo de contratos eventuales.</li>
+            <li><strong>3.1.5. Teletrabajo:</strong> Aplicado exclusivamente en gestión administrativa y financiera de la Sección de Crédito.</li>
+        </ul>
+
+        <h3>3.2. Política Retributiva</h3>
+        <p>Se utiliza una estrategia de <strong>Compensación Total</strong>, que incluye salario base por convenio y beneficios sociales (descuentos en agro-tienda y combustible para empleados).</p>
+        
+        <div class="ods-section">
+            <h3>Dimensión Social: Compromiso ODS (Agenda 2030)</h3>
+            <p>Creación de un proyecto de sostenibilidad con 2 acciones específicas para cada objetivo:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ODS</th>
+                        <th>Acción 1</th>
+                        <th>Acción 2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>1. Fin de la Pobreza</td><td>Precios justos garantizados para el socio.</td><td>Microcréditos para modernización de fincas.</td></tr>
+                    <tr><td>2. Hambre Cero</td><td>Donación de excedentes a bancos locales.</td><td>Talleres de optimización de cultivos.</td></tr>
+                    <tr><td>3. Salud y Bienestar</td><td>Ergonomía en planta de deshidratación.</td><td>Seguro de accidentes ampliado.</td></tr>
+                    <tr><td>4. Educación</td><td>Cursos técnicos en agricultura de precisión.</td><td>Becas para hijos de socios y empleados.</td></tr>
+                    <tr><td>5. Igualdad de Género</td><td>Fomento de mujeres en el Consejo Rector.</td><td>Protocolo de igualdad salarial.</td></tr>
+                    <tr><td>6. Agua Limpia</td><td>Riego de precisión para socios.</td><td>Sistemas de filtrado en instalaciones.</td></tr>
+                    <tr><td>7. Energía Asequible</td><td>Placas solares en cubiertas de silos.</td><td>Uso de biomasa en hornos de alfalfa.</td></tr>
+                    <tr><td>8. Trabajo Decente</td><td>Fomento de contratos indefinidos.</td><td>Plan de conciliación familiar.</td></tr>
+                    <tr><td>9. Industria/Innovación</td><td>Digitalización de la trazabilidad del grano.</td><td>Maquinaria de bajas emisiones.</td></tr>
+                    <tr><td>10. Reducir Desigualdad</td><td>Inclusión de colectivos vulnerables en campaña.</td><td>Programas de integración para inmigrantes.</td></tr>
+                    <tr><td>11. Ciudades Sostenibles</td><td>Punto de carga eléctrica en gasolinera.</td><td>Mejora de accesos rurales en Almudévar.</td></tr>
+                    <tr><td>12. Consumo Responsable</td><td>Venta a granel en la agro-tienda.</td><td>Uso reducido de envases plásticos.</td></tr>
+                    <tr><td>13. Acción por el Clima</td><td>Cultivos rotativos para capturar CO2.</td><td>Renovación de flota de camiones.</td></tr>
+                    <tr><td>14. Vida Submarina</td><td>Control estricto de vertidos químicos.</td><td>Reducción de nitratos en abonado.</td></tr>
+                    <tr><td>15. Ecosistemas Terr.</td><td>Mantenimiento de biodiversidad en lindes.</td><td>Reforestación de áreas industriales.</td></tr>
+                    <tr><td>16. Paz y Justicia</td><td>Auditoría transparente de la Sección de Crédito.</td><td>Canal ético interno de denuncias.</td></tr>
+                    <tr><td>17. Alianzas</td><td>Socio de Cooperativas Agro-alimentarias.</td><td>Convenios de I+D con universidades.</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h3>3.3. Selección y 3.4. Formación</h3>
+        <p><strong>Atracción:</strong> El canal más influyente es el reclutamiento local y referencias de socios.</p>
+        <p><strong>Onboarding:</strong> Programa de acogida técnica en seguridad alimentaria y prevención de riesgos.</p>
+    </section>
+
+    <div class="footer">
+        <p>Asignatura: Dirección de Recursos Humanos - Curso 2025/26</p>
+        <p>Grado en Administración y Dirección de Empresas (ADE)</p>
+    </div>
+</div>
+
+</body>
+</html>
